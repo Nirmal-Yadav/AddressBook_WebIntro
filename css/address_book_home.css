@@ -1,0 +1,185 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css2?family=Roboto);
+body {
+    height: 100%;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+}
+
+.header-container{
+    display: flex;
+    padding: 15px;
+    background-color: #ffffff;
+}
+
+.logo{
+    padding-top: 8px;
+    display: flex;
+    flex-flow: row;
+    padding-left: 8%;
+}
+.logo-img{
+    padding-top: 2px;
+    justify-self: center;
+    padding-bottom: 3px;
+}
+.logo-name{
+    margin-left: 6%;
+    text-align: left;
+    font: normal normal bold 20px/23px Montserrat;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    opacity: 1;
+    color: #008CFF;
+    text-transform: uppercase;
+}
+.second-line {
+    color: #42515F;
+}
+
+* { box-sizing: border-box;}
+
+.form-content{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center ;
+}
+
+form{
+    align-content: center;
+    width: 60%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #F5F5F5;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+.form-head{
+    border-radius: 8px;
+    display: flex;
+    flex-flow: row;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    background: #008CFF 0% 0% no-repeat padding-box;
+    opacity: 1; 
+}
+
+.form-title{
+    padding-left: 33%;
+    padding-top: 11px;
+    font: normal normal normal 28px/37px Roboto;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    flex-grow: 4;
+}
+
+
+.cancel-button{
+    padding-top: 8px;
+    flex-grow: 1;
+    padding-bottom: 2px;
+}
+
+.input-fields{
+    margin-top: 5%;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.row-content{
+    margin-bottom: 18px;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    text-align: left;
+    font: normal normal normal 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #42515F;
+    opacity: 1;
+    margin-bottom: 5px;
+    text-transform: capitalize;
+}
+
+input{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    opacity: 1;
+    width: 100%;
+    padding: 13px;
+    resize: vertical;
+}
+
+.input-error{
+    display: flex;
+    flex-direction: row;
+}
+
+error-output {
+    margin-left: 10px;
+    font-size : 13px;
+    font-style: italic;
+    color: red;
+}
+
+.column-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.row-content-2{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 31%;
+    padding: 0px;
+}
+
+textarea{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    opacity: 1;
+    width: 100%;
+    padding: 12px;
+    resize: vertical;
+}
+select{
+    font: normal normal normal 14px Roboto;
+    color: #42515F;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #BDBDBD;
+    border-radius: 3px;
+    opacity: 1;
+    width: 100%;
+    padding: 12px;
+    resize: vertical;
+}
+
+.buttons{
+    margin-top: 4%;
+    margin-bottom: 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.button{
+    font: normal normal normal 16px/22px Roboto;
+    width: 25%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 10px;
+    background-color: #E2E2E2;
+    color: #42515F;
+    border: 2px solid #BDBDBD;
+    border-radius: 3px;
+}
+
+
